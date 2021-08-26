@@ -1,1 +1,30 @@
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html{
+  font-size: 63%;
+}
+body{
+  font-size: 1.8rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+a{
+  text-decoration: none;
+}
+ul,li{
+  list-style: none;
+}
+.container{
+  max-width: 114rem;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1200px){
+  .container{
+    padding: 0 3rem;
+  }
+}
