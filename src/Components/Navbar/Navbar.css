@@ -1,5 +1,5 @@
 :root{
-    --primary: rgb(0, 0, 0);
+    --primary: #010108;
 }
 .nav{
     padding: 1.4rem 0;
@@ -14,6 +14,9 @@
     align-items: center;
 }
 .logo{
+    color: #0047FF;
+}
+.logo:hover{
     color: #fff;
 }
 .nav-list{

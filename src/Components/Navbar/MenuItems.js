@@ -11,7 +11,7 @@ export default [
     },
     {
         id :3,
-        title: 'Education',
+        title: 'Projects',
         cName: "nav-link"
     },
     {
