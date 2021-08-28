@@ -17,15 +17,39 @@ h2{
 }
 
 .heading{
-    background: #010108;
+    background: #000000;
 }
 .heading-setuph1{
-    margin: -10px 150px 0px 250px;
+    margin: 10px 150px 0px 250px;
     font-size: 50px;
     font-weight: 100%;
     font-variant: small-caps;
     color: #0047FF;
     font-family: cursive;
+    position: relative;
+    -webkit-text-stroke: 0.20vw white;
+    text-transform: uppercase;
+}
+.heading-setuph1::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    font-variant: small-caps;
+    color: #0047FF;
+    -webkit-text-stroke: 0vw white;
+    border-right: 2px solid white;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate{
+    0%,10%,100%{
+        width: 0;
+    }
+    70%,90%{
+        width: 100%;
+    }
 }
 .heading-setuph1:hover{
     color: #fff;
@@ -34,7 +58,9 @@ h2{
     margin: 150px 150px 0px 140px;
     color: #0047FF;
     font-family: cursive;
+    text-transform: uppercase;
 }
+
 .para{
     margin: 0px 100px 0px 140px;
     color: #fff;
@@ -47,13 +73,13 @@ h2{
     
 }
 .heading3{
-    background: #010108;
+    background: #000000;
 }
 .btn{
     margin: 0px 50px 0px 135px;
     padding: 2px;
     font-size: 19.5px;
-    background:  #010108;
+    background:  #000000;
     color: white;
     border-radius: 20%;
 }

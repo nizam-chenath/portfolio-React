@@ -3,13 +3,25 @@
     padding: 0;
 }
 .about{
+    position: relative;
     display: grid;
-    grid-template-rows: 60vh 40vh;
-    grid-template-columns: 1.3fr .7fr;
+    grid-template-rows: 40vh 60vh;
     background: black;
 }
 .dot{
     color: white;
     font-size: 200px;
-    margin: -170px 0px 0px 500px;
+    margin: -188px 0px 0px 500px;
+    color: #0047FF;
+}
+.heading{
+    margin: -78px 100px 10px 550px;
+}
+.subHeading{
+    margin: 40px 10px 15px 50px;
+}
+.box{
+    background: white;
+    width: 900px;
+    height: 200px;
 }
