@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.project{
+    background-image: url(./source/projects.jpg);
+    height: 100vh;
+    width: 100vw;
+}
+
+.dot2{
+    position: absolute;
+    color: white;
+    font-size: 200px;
+    margin: -150px 0px 0px 500px;
+    color: #0047FF;
+}
+.projects-heading{
+    position: absolute;
+    margin: 37px 0px 0px 540px;
+}
+.project-box{
+    position: absolute;
+    height: 300px;
+    width: 280px;
+    background-color: #0047FF;
+    margin: 200px 0px 0px 150px;
+    transition: transform 1.8s ease-in;
+}
+.project-box2{
+    position: absolute;
+    height: 300px;
+    width: 280px;
+    background-color: #0047FF;
+    margin: 200px 0px 0px 500px;
+    transition: transform 1.8s ease-in;
+}
+.project-box3{
+    position: absolute;
+    height: 300px;
+    width: 280px;
+    background-color: #0047FF;
+    margin: 200px 0px 0px 850px;
+    transition: transform 1.8s ease-in;
+}
+.project-box:hover{
+    transform: translateX(15%);
+}
+.project-box2:hover{
+    transform: translateX(15%);
+}
+.project-box3:hover{
+    transform: translateX(15%);
+}

@@ -3,25 +3,42 @@
     padding: 0;
 }
 .about{
-    position: relative;
-    display: grid;
-    grid-template-rows: 40vh 60vh;
-    background: black;
+    background: rgb(0, 0, 0);
+    background-image: url(./source/bgPortfoliyo.png);
 }
 .dot{
     color: white;
     font-size: 200px;
-    margin: -188px 0px 0px 500px;
+    margin: -150px 0px 0px 500px;
     color: #0047FF;
 }
-.heading{
-    margin: -78px 100px 10px 550px;
+.resume{
+    margin: -78px 0px 0px 540px;
 }
 .subHeading{
     margin: 40px 10px 15px 50px;
+    color: #0047FF;
 }
 .box{
+    margin-left: 8px;
     background: white;
     width: 900px;
     height: 200px;
+    transition: transform 2s ease-in;
+}
+.about:hover .box{
+    transform: translateX(50%);
+}
+.box2{
+    margin: 10px 0px 0px 438px;
+    background: white;
+    width: 900px;
+    height: 200px;
+    transition: transform 2s ease-in;
+}
+.about:hover .box2{
+    transform: translateX(-50%);
+}
+.experience-edit{
+    font-size: 25px;
 }

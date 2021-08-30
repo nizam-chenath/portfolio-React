@@ -4,6 +4,7 @@ import './App.css';
 import About from './Components/Navbar/About';
 import Home from './Components/Navbar/Home';
 import Navbar from "./Components/Navbar/Navbar"
+import Project from './Components/Navbar/Project';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Navbar/>
       <Home/>
       <About/>
+      <Project/>
    </Router>
   )
 }

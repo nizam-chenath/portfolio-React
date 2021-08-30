@@ -11,7 +11,7 @@ h2{
 }
 .home{
     display: grid;
-    grid-template-rows: 60vh 40vh;
+    grid-template-rows: 60vh 30vh;
     grid-template-columns: 1.3fr .7fr;
     
 }
