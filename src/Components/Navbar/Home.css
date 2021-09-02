@@ -13,7 +13,6 @@ h2{
     display: grid;
     grid-template-rows: 60vh 30vh;
     grid-template-columns: 1.3fr .7fr;
-    
 }
 
 .heading{

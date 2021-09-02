@@ -3,8 +3,7 @@
     padding: 0;
 }
 .about{
-    background: rgb(0, 0, 0);
-    background-image: url(./source/bgPortfoliyo.png);
+    background-image: url(./source/bg-resume.jpg);
 }
 .dot{
     color: white;
