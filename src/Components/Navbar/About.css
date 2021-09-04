@@ -23,6 +23,8 @@
     background: white;
     width: 900px;
     height: 200px;
+    border-radius: 10px;
+    box-shadow: 5px 6px 30px grey;
     transition: transform 2s ease-in;
 }
 .about:hover .box{
@@ -33,6 +35,8 @@
     background: white;
     width: 900px;
     height: 200px;
+    border-radius: 10px;
+    box-shadow: 5px 6px 50px grey;
     transition: transform 2s ease-in;
 }
 .about:hover .box2{

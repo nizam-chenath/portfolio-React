@@ -6,6 +6,8 @@ import Home from './Components/Navbar/Home';
 import Navbar from "./Components/Navbar/Navbar";
 import Project from './Components/Navbar/Project';
 import Contact from './Components/Navbar/Contact';
+import Social from './Components/Navbar/Social';
+
 
 
 function App() {
@@ -16,6 +18,7 @@ function App() {
       <About/>
       <Project/>
       <Contact/>
+      <Social/>
    </Router>
   )
 }

@@ -23,32 +23,36 @@
     position: absolute;
     height: 300px;
     width: 280px;
+    border-radius: 20%;
     background-color: #0047FF;
+    box-shadow: 5px 6px 30px white;
     margin: 200px 0px 0px 150px;
-    transition: transform 1.8s ease-in;
+    
 }
 .project-box2{
     position: absolute;
     height: 300px;
     width: 280px;
+    border-radius: 20%;
     background-color: #0047FF;
-    margin: 200px 0px 0px 500px;
-    transition: transform 1.8s ease-in;
+    box-shadow: 5px 6px 20px white;
+    margin: 200px 0px 0px 500px
 }
 .project-box3{
     position: absolute;
     height: 300px;
     width: 280px;
+    border-radius: 20%;
     background-color: #0047FF;
+    box-shadow: 5px 6px 30px white;
     margin: 200px 0px 0px 850px;
-    transition: transform 1.8s ease-in;
 }
 .project-box:hover{
-    transform: translateX(15%);
+    transform: scale(1.1);
 }
 .project-box2:hover{
-    transform: translateX(15%);
+    transform: scale(1.1);
 }
 .project-box3:hover{
-    transform: translateX(15%);
+    transform: scale(1.1);
 }
